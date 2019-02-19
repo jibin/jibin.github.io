@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosansmalayalam.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+@import "variable/_variable.css";
+@import "base/_base.css";
+@import "layout/_layout.css";
+@import "component/_component.css";
+@import "utility/_utility.css";
+
+

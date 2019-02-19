@@ -1,0 +1,64 @@
+.main-content .title {
+
+    padding: 10px 20px;
+}
+
+.main-content .title h1 {
+    font-size: 22px;
+    font-weight: bold;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.main-content .title .sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-content .title .sub span {
+    font-size: 11px;
+    line-height: 1.2em;
+    color: #888;
+}
+.like-dislike-wrapper {
+    height: 30px;
+    width: 120px;
+}
+
+.like-dislike {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+.like-dislike li {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px; 
+}
+.like-dislike li a {
+    display: block;
+    border: 1px solid saddlebrown;
+    background-color: sandybrown;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 50px;
+}
+
+.main-content .content {
+    padding: 10px 20px;
+    border-top: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    background-color: white;
+
+}
+.main-content p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}

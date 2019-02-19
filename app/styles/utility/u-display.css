@@ -1,0 +1,11 @@
+.u-displayBlock {
+    display: block !important; 
+}
+
+.u-displayInline {
+    display: inline !important;
+}
+
+.u-displayInlineBlock {
+    display: inline-block !important;
+}

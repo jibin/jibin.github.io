@@ -1,0 +1,9 @@
+body {
+    font-family: 'Noto Sans Malayalam', 'Noto Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    background: #f1f1f1;
+    @media (--phone-landscape) {
+        font-size: 0.875em;
+    }
+}

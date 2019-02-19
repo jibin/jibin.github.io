@@ -1,0 +1,41 @@
+.main-naviagtion {
+    display: block;
+    position: fixed;
+    will-change: transform;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    z-index: 5;
+    transform: translateX(-100%);
+    transition: transform .3s ease-in;
+}
+.main-navigation-open .main-naviagtion {
+    transform: translateX(0);
+}
+
+.main-navigation-container {
+    flex: 1;
+    background: seagreen;
+    color: white;
+    box-shadow: 0 0 6px seagreen;
+    
+}
+
+.main-navigation-container ul,
+.main-navigation-container li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navigation-container a {
+    color: white;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+.main-navigation-close {
+    width: 55px;
+}
