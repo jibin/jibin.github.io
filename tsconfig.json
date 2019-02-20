@@ -1,0 +1,11 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "removeComments": true,
+        "module": "ES6",
+        "outDir": "app/js/"
+    },
+    "files": [
+        "app/ts/main.ts"
+    ]
+}

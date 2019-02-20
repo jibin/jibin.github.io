@@ -26,5 +26,8 @@
     "postcss-image-inliner": "^3.0.0",
     "postcss-nesting": "^7.0.0",
     "postcss-svg": "^3.0.0"
+  },
+  "dependencies": {
+    "systemjs": "^3.0.0"
   }
 }

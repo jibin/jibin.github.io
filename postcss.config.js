@@ -1,5 +1,5 @@
-module.exports = {
-    
+module.exports = (ctx) => ({
+    map: ctx.options.map,
     plugins: [
 
         // Inline @import rules
@@ -46,6 +46,6 @@ module.exports = {
         require('autoprefixer'),
 
         // CSS compression. Check cssnano.config.js file for preset.
-        // require('cssnano')
+        require('cssnano')
     ]
-}
+});
