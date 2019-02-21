@@ -1,6 +1,8 @@
-import { Constant } from './interface.js';
+import { Constant } from './interface/Constant.js';
 
-const constant: Constant = {
-    HTML: document.documentElement
+const Constant: Constant = {
+    HTML: document.documentElement,
+    HAMBURGER: document.getElementById('hamburger'),
+    OVERLAY: document.getElementById('overlay')
 }
-export default constant;
+export default Constant;
