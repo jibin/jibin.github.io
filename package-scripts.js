@@ -8,7 +8,7 @@ module.exports = {
         },
         build: {
             default: series.nps('build.del', 'build.styles', 'build.scripts'),
-            del:  rimraf.nps('app/css', 'rimraf app/js'),
+            del: 'rimraf ["app/css", "rimraf app/js"]',
             styles: 'postcss app/styles/style.css -o app/css/style.css --no-map',
             scripts: {
                 default:  series.nps('build.scripts.typescript', 'build.scripts.uglifyjs'),
@@ -30,9 +30,9 @@ module.exports = {
         styles: 'postcss app/styles/style.css -o app/css/style.css --map --watch',
         scripts: 'tsc --sourceMap true --watch',
         run: {
-            default: series.nps('run.server', 'run.browser'),
-            server: 'http-server -p 8284 -d false -i false',
-            browser: open.nps('http://localhost:8284/app')
+            default: concurrent.nps('run.server', 'run.browser'),
+            server: 'http-server -p 8284',
+            browser: 'opn http://localhost:8284/app -- "chrome" --incognito'
         },
     }
 }
